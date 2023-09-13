@@ -1,0 +1,19 @@
+#divMenu{
+    height: 40px;
+    width: 100%;
+    background-color: black;
+}
+
+#listaMenu{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+
+.itemMenu{
+
+}
+
+.linkMenu{
+    color: aliceblue;
+}
