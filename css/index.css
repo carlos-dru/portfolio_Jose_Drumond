@@ -1,0 +1,17 @@
+#fotoPerfil {
+    border-radius: 50%;
+    display: flex;
+    justify-content: right;
+    padding-left: 40px;
+}
+
+#divFoto {
+    display: flex;
+    justify-content: center;
+}
+
+#divTexto {
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: justify;
+}
