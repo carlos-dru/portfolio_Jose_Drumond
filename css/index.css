@@ -1,4 +1,5 @@
-#fotoPerfil {
+#fotoPerfil,
+#fotoBaixo {
     border-radius: 50%;
     display: flex;
     justify-content: right;
