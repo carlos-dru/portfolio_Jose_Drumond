@@ -29,6 +29,7 @@
     transition: color 500ms;
     color: white;
     text-decoration: none;
+    font-weight: bold;
 }
 
 #divLogo {
