@@ -18,76 +18,112 @@
     <div id="container">
 
         <!--Construindo o menu da página-->
-        <div id="divMenu">
-            <div id="divLogo">
-                <img src="../imagens/Logo.png" alt="Logo José Drumond" width="35px" height="35px">
+        <header>
+            <div id="divMenu">
+                <div id="divLogo">
+                    <img src="../imagens/Logo.png" alt="Logo José Drumond" width="35px" height="35px">
+                </div>
+
+                <!--Adionando os links do menu-->
+                <ul id="listaMenu">
+                    <li class="itemMenu">
+                        <a href="Index.html" class="linkMenu"> Sobre mim</a>
+                    </li>
+                    <li class="itemMenu">
+                        <a href="formacao.html" class="linkMenu"> Formação</a>
+                    </li>
+                    <li class="itemMenu">
+                        <a href="experiencia.html" class="linkMenu"> Experiência (Portfólio)</a>
+                    </li>
+                    <li class="itemMenu">
+                        <a href="contatos.html" class="linkMenu"> Contatos</a>
+                    </li>
+                </ul>
+
             </div>
-
-            <!--Adionando os links do menu-->
-            <ul id="listaMenu">
-                <li class="itemMenu">
-                    <a href="Index.html" class="linkMenu"> Sobre mim</a>
-                </li>
-                <li class="itemMenu">
-                    <a href="formacao.html" class="linkMenu"> Formação</a>
-                </li>
-                <li class="itemMenu">
-                    <a href="experiencia.html" class="linkMenu"> Experiência (Portfólio)</a>
-                </li>
-                <li class="itemMenu">
-                    <a href="contatos.html" class="linkMenu"> Contatos</a>
-                </li>
-            </ul>
-
-        </div>
+        </header>
 
         <!--Criando o corpo da página-->
         <div id="corpoPagina">
-            <div id="corpoLadoEsquerdo" style="width: 40%; height:100%;">
+            <div id="corpoLadoEsquerdo" style="width: 30%; height:100%;">
                 <!--Inserindo a minha foto no site com um formato arredondado-->
-                <div class="divFoto" style="float: left; display: flex;"><img id="fotoPerfil"
-                        src="../imagens/fotoPerfil.jpg" alt="José Drumond" width="300px" height="300px">
+                <div class="divFoto"><img class="fotoCircular" src="../imagens/fotoPerfil.jpg" alt="José Drumond"
+                        width="300px" height="300px">
                 </div>
-                <div class="divFoto" style="float: left; display: flex;"><img id="fotoBaixo"
-                        src="../imagens/Foto baixo.png" alt="José Drumond" width="300px" height="300px">
+                <div class="divFoto"><img class="fotoCircular" src="../imagens/Foto baixo.png" alt="José Drumond"
+                        width="300px" height="300px">
                 </div>
-                <div class="divFoto" style="float: left; display: flex;"><img id="fotoBaixo"
-                        src="../imagens/Foto correndo.png" alt="José Drumond" width="300px" height="300px">
+                <div class="divFoto"><img class="fotoCircular" src="../imagens/Foto correndo.png" alt="José Drumond"
+                        width="300px" height="300px">
                 </div>
             </div>
             <!--Incluíndo o texto de descrição na página-->
-            <div id="divTexto">
+            <div id="corpoLadoDireito" style="width: 68%; height:100%;">
+                <div id="divTextoSobreMim">
 
-                <h1>Olá! Tudo bem?</h1>
-                <p>Meu nome é José Drumond, tenho 22 anos e moro em Duque de Caxias (Rio de Janeiro). <br>
-                    Sou apaixonado por futebol, música, praia e tecnologia. Algumas das minhas atividades favoritas são:
-                </p>
-                <!--Listando os principais hobbies-->
-                <dl id="listaAtividades">
-                    <dt>
-                        <h2>Jogar/assistir futebol:</h2>
-                    </dt>
-                    <dd>Tenho contato com futebol desde quando era bem novo. Por influência do meu avô, me tornei um
-                        torcedor louco pelo Vasco da Gama.</dd>
-                    <dd>Devido a esse contato com o futebol desde criança, esse esporte acabou se tornando uma espécie
-                        de
-                        terapia para mim, seja jogando ou apenas assistindo.</dd>
-                    <dt>
-                        <h2>Treinar (musculação, corrida);</h2>
-                    </dt>
-                    <dd>teste</dd>
-                    <dt>
-                        <h2>Tocar contrabaixo:</h2>
-                    </dt>
-                    <dd>teste</dd>
-                    <dt>
-                        <h2>Jogar FIFA com os amigos:</h2>
-                    </dt>
-                    <dd>teste</dd>
-                </dl>
+                    <h1>Olá! Tudo bem?</h1>
+                    <h3 style="text-indent: 15px;">Meu nome é José Drumond, tenho 22 anos, moro em Duque de
+                        Caxias
+                        (Rio
+                        de Janeiro) e sou apaixonado por futebol, música, praia e tecnologia.<br>
+                        <br>
+                        Algumas das minhas atividades favoritas
+                        são:
+                    </h3>
+                    <!--Listando as principais atividades-->
+                    <ul id="listaAtividades">
+                        <li class="atividade1">
+                            <h2>Jogar/assistir futebol:</h2>
+                        </li>
+                        <p class="atividade1">Tenho contato com futebol desde quando era bem novo. Por influência do meu
+                            avô, me tornei um
+                            torcedor louco pelo Vasco da Gama.</p>
+                        <p class="atividade1">Devido a esse contato com o futebol desde criança, esse esporte acabou se
+                            tornando uma
+                            espécie
+                            de
+                            terapia para mim, seja jogando ou apenas assistindo.</p>
+                        <li class="atividade2">
+                            <h2>Treinar (musculação e corrida);</h2>
+                        </li>
+                        <p class="atividade2">Sempre gostei de praticar esportes, por esse motivo eu pratico corrida e
+                            faço musculação,
+                            além de jogar um futebol com os amigos sempre que possível. É uma forma que eu encontrei de
+                            "descansar" a minha mente e ao mesmo tempo manter o meu corpo saudável. </p>
+                        <li class="atividade3">
+                            <h2>Tocar baixo:</h2>
+                        </li>
+                        <p class="atividade3">Meu primeiro contato com a música foi quando tinha 14 anos, onde comecei a
+                            aprender violão e
+                            participei de uma "banda" com meu irmão e os amigos da escola. Após isso descobri o baixo e
+                            me apaixonei de primeira pelo som grave.</p>
+                        <p class="atividade3">Após 2 anos de estudo, entrei para o grupo musical (louvor) da igreja em
+                            que congrego, e
+                            isso foi fundamental para minha adolescência. Sem dúvidas a música teve (e ainda tem) um
+                            papel muito importante na minha vida.</p>
+
+                        <li class="atividade4">
+                            <h2>Jogar FIFA com os amigos:</h2>
+                        </li>
+                        <p class="atividade4">Por ser apaixonado por futebol, meu jogo favorito é o FIFA. O mais legal
+                            dele é poder criar
+                            o seu avatar e montar um time com os seus amigos, disputando partidas em tempo real.</p>
+                        <p class="atividade4">Jogo FIFA desde 2010, e posso afirmar que esse jogo já me rendeu muitas
+                            risadas e
+                            continua me
+                            divertindo até hoje.</p>
+
+                    </ul>
+                </div>
             </div>
 
         </div>
+
+        <footer>
+            <div>
+                Desenvolvido por: José Drumond <br> © Copyright 2023 - Todos os direitos reservados
+            </div>
+        </footer>
     </div>
 </body>
 

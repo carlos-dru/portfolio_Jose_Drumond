@@ -6,6 +6,8 @@
     margin-top: 10px;
     display: flex;
     align-items: center;
+    border: 1px solid black;
+    border-radius: 8px;
 }
 
 #listaMenu {
@@ -39,4 +41,38 @@
     float: left;
     height: 100%;
     align-items: center;
+}
+
+footer {
+    height: 70px;
+    background-color: black;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 8px;
+    color: white;
+    justify-content: center;
+}
+
+footer div {
+    display: flex;
+    text-align: center;
+    animation: alterarCorTexto 5s infinite;
+}
+
+@keyframes alterarCorTexto {
+    0% {
+        color: white;
+    }
+
+    50% {
+        color: rgb(0, 217, 255);
+    }
+
+    100% {
+        color: white;
+    }
 }
