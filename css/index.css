@@ -1,27 +1,71 @@
-#fotoPerfil,
-#fotoBaixo {
-    border-radius: 50%;
+.fotoCircular {
     display: flex;
-    justify-content: right;
-    padding-left: 40px;
+    border-radius: 50%;
+    margin: 50px 40px 40px 40px;
 }
 
 #divFoto {
     display: flex;
     justify-content: center;
+    float: left;
 }
 
-#divTexto {
+#divTextoSobreMim {
     margin-left: 50px;
     margin-right: 50px;
     text-align: justify;
-    padding-top: 70px;
+    padding-top: 60px;
+}
+
+#divTextoSobreMim h1,
+h3 {
+    animation: fadeInDown 3s;
 }
 
 #listaAtividades {
-    color: white;
+    color: black;
+    list-style: circle;
 }
 
-dd {
+.atividade1 {
+    animation-delay: 2s !important;
+    animation: fadeInDown 4s;
+}
+
+.atividade2 {
+    animation-delay: 4s !important;
+    animation: fadeInDown 4s;
+}
+
+.atividade3 {
+    animation-delay: 6s !important;
+    animation: fadeInDown 4s;
+}
+
+.atividade4 {
+    animation-delay: 8s !important;
+    animation: fadeInDown 4s;
+}
+
+ul p {
     text-indent: 15px;
+    margin: 0px;
+}
+
+#listaAtividades li {
+    margin-top: 40px;
+}
+
+@keyframes fadeInDown {
+    0% {
+        color: white;
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+
+    100% {
+        color: white;
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
