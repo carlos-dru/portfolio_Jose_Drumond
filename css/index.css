@@ -17,34 +17,24 @@
     padding-top: 60px;
 }
 
-#divTextoSobreMim h1,
-h3 {
-    animation: fadeInDown 3s;
-}
-
 #listaAtividades {
     color: black;
-    list-style: circle;
+    list-style: circle !important;
 }
 
-.atividade1 {
-    animation-delay: 2s !important;
-    animation: fadeInDown 4s;
+.atividade {
+    opacity: 0;
+    transform: translateY(-20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
 }
 
-.atividade2 {
-    animation-delay: 4s !important;
-    animation: fadeInDown 4s;
+#listaAtividades li {
+    text-shadow: 1px 1px 1px #b9b9b9 !important;
 }
 
-.atividade3 {
-    animation-delay: 6s !important;
-    animation: fadeInDown 4s;
-}
-
-.atividade4 {
-    animation-delay: 8s !important;
-    animation: fadeInDown 4s;
+.show {
+    opacity: 1;
+    transform: translateY(0);
 }
 
 ul p {
@@ -54,18 +44,4 @@ ul p {
 
 #listaAtividades li {
     margin-top: 40px;
-}
-
-@keyframes fadeInDown {
-    0% {
-        color: white;
-        opacity: 0;
-        transform: translateY(-20px);
-    }
-
-    100% {
-        color: white;
-        opacity: 1;
-        transform: translateY(0);
-    }
 }

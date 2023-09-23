@@ -24,7 +24,7 @@
 
 .linkMenu:hover {
     transition: color 700ms;
-    color: rgb(0, 217, 255);
+    color: #b9b9b9;
 }
 
 .linkMenu {
@@ -69,7 +69,7 @@ footer div {
     }
 
     50% {
-        color: rgb(0, 217, 255);
+        color: #b9b9b9;
     }
 
     100% {
