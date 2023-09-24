@@ -3,6 +3,38 @@
     background-color: black;
     margin: 10px;
     display: flex;
+    flex-direction: column;
     border: 1px solid black;
     border-radius: 8px;
+}
+
+#tituloPagina {
+    width: 100%;
+    margin: 20px 0px;
+
+}
+
+#tituloPagina h1 {
+    text-align: center;
+}
+
+#divFormacao {
+    width: 100%;
+}
+
+#listaFormacoes {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-around;
+    padding: 0px;
+}
+
+.imagensFormacao {
+    width: 200px;
+    height: 200px;
+}
+
+.formacao ul {
+    list-style: none;
 }
