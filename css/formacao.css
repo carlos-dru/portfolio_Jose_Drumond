@@ -1,5 +1,5 @@
 #corpoPaginaFormacao {
-    height: 1100px;
+    height: 650px;
     background-color: black;
     margin: 10px;
     display: flex;
@@ -20,6 +20,7 @@
 
 #divFormacao {
     width: 100%;
+    margin-top: 40px;
 }
 
 #listaFormacoes {
@@ -30,11 +31,34 @@
     padding: 0px;
 }
 
+.formacao ul {
+    padding: 0px;
+}
+
 .imagensFormacao {
-    width: 200px;
-    height: 200px;
+    transition: opacity 600ms;
+    opacity: 100%;
+    width: 230px;
+    height: 215px;
+    display: flex;
+    border-radius: 20px;
+}
+
+.imagensFormacao:hover {
+    transition: opacity 300ms;
+    opacity: 60%;
 }
 
 .formacao ul {
     list-style: none;
+}
+
+.tituloFormacao {
+    text-align: center;
+}
+
+.logoFormacao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
