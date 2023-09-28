@@ -1,3 +1,4 @@
+// Criando método para fazer a animação de "fade down" nos itens de atividade
 document.addEventListener("DOMContentLoaded", function () {
     const atividades = document.querySelectorAll(".atividade");
     atividades.forEach((atividade, index) => {

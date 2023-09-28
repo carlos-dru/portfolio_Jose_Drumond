@@ -1,3 +1,4 @@
+/* Alterando as propriedades dos componentes para ficar mais agradável ao usuário */
 #corpoPaginaFormacao {
     height: 650px;
     background-color: black;
@@ -33,6 +34,17 @@
 
 .formacao ul {
     padding: 0px;
+}
+
+.formacao {
+    opacity: 0;
+    transform: translateY(-20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.show {
+    opacity: 1;
+    transform: translateY(0);
 }
 
 .imagensFormacao {
