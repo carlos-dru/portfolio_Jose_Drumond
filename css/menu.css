@@ -44,6 +44,10 @@
     align-items: center;
 }
 
+#imgLogo {
+    border-radius: 8px;
+}
+
 footer {
     height: 70px;
     background-color: black;
