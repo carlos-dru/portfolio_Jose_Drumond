@@ -1,0 +1,44 @@
+/* Alterando as propriedades dos componentes para ficar mais agradável ao usuário */
+#corpoPaginaExperiencia {
+    height: 650px;
+    background-color: black;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+#tituloPagina,
+#descricaoPagina {
+    width: 100%;
+    margin: 20px 0px 0px 0px;
+}
+
+#tituloPagina h1,
+#descricaoPagina h2 {
+    text-align: center;
+    padding: 0px 100px;
+}
+
+#containerExperiencia {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.imagemExperiencia {
+    width: 200px;
+    height: 200px;
+    border-radius: 50% !important;
+    display: flex;
+}
+
+.divExperiencia {
+    margin: 50px 0px;
+}
+
+.divImagemExperiencia {
+    display: flex;
+    justify-content: center;
+}
