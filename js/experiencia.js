@@ -1,27 +1,14 @@
-function destacarDescricao(profissao) {
-    if (profissao == 'QA') {
-        var divDescricao = document.getElementById("descricaoExperienciaQA");
-        divDescricao.classList.add("destacarDescricaoExperiencia");
-        divDescricao.classList.remove("escurecerDescricaoExperiencia");
-        console.log("Testando QA");
-    } else if (profissao == 'PO') {
-        var divDescricao = document.getElementById("descricaoExperienciaPO");
-        divDescricao.classList.add("destacarDescricaoExperiencia");
-        divDescricao.classList.remove("escurecerDescricaoExperiencia");
-        console.log("Testando PO");
-    }
-}
+// Criando método para fazer a animação de "fade down" nos itens de formação
+document.addEventListener("DOMContentLoaded", function () {
+    const experiencias = document.querySelectorAll(".experiencia");
+    experiencias.forEach((experiencia, index) => {
+        // Define os atrasos com base no índice
+        const delay = (index + 1) * 1000;
 
-function sombrearDescricao(profissao) {
-    if (profissao == 'QA') {
-        var divDescricao = document.getElementById("descricaoExperienciaQA");
-        divDescricao.classList.add("escurecerDescricaoExperiencia");
-        divDescricao.classList.remove("destacarDescricaoExperiencia");
-        console.log("Testando QA");
-    } else if (profissao == 'PO') {
-        var divDescricao = document.getElementById("descricaoExperienciaPO");
-        divDescricao.classList.add("escurecerDescricaoExperiencia");
-        divDescricao.classList.remove("destacarDescricaoExperiencia");
-        console.log("Testando PO");
-    }
-}
+        // Aplica a classe "show" após o atraso
+        setTimeout(() => {
+            experiencia.classList.add("show");
+        }, delay);
+    });
+});
+
