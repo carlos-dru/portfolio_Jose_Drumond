@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>Contatos</title>
     <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="../css/experiencia.css">
+    <link rel="stylesheet" href="../css/contatos.css">
     <link rel="stylesheet" href="../css/menu.css">
     <!--
             ALUNO: JOSÉ DRUMOND
@@ -36,6 +36,27 @@
         </ul>
 
     </div>
+    <div id="corpoPaginaContatos">
+        <div id="tituloPagina">
+            <h1>Gostaria de me conhecer melhor?</h1>
+            <h2>Digite seu e-mail no campo abaixo, e eu entrarei em contato:</h2>
+        </div>
+        <form id="formContato">
+            <input type="text" placeholder="  Digite seu e-mail aqui" id="campoEmail">
+            <input type="button" id="botaoSalvar" value="Salvar" onclick="enviarEmail()">
+            <h4 id="mensagemSucesso">E-mail enviado com sucesso!</h4>
+        </form>
+        <div id="divRedesSociais">
+            <h2>Ou se preferir, entre em contato através das minhas redes sociais:</h2>
+        </div>
+    </div>
+    <footer>
+        <div>
+            Desenvolvido por: José Drumond <br> © Copyright 2023 - Todos os direitos reservados
+        </div>
+    </footer>
+    <script src="../js/geral.js"></script>
+    <script src="../js/contatos.js"></script>
 </body>
 
 </html>
