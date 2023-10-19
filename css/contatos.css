@@ -1,5 +1,5 @@
 #corpoPaginaContatos {
-    height: 800px;
+    height: 750px;
     background-color: black;
     margin: 10px;
     display: flex;
@@ -23,7 +23,7 @@
 
 #campoEmail {
     width: 300px;
-    height: 40px;
+    height: 45px;
     border-radius: 20px;
     border: 0px;
     color: black;
@@ -46,7 +46,56 @@
     background-color: #b9b9b9;
 }
 
+#divMensagem {
+    display: flex;
+    justify-content: center;
+}
+
+#mensagemSucesso h4 {
+    width: 100%;
+    display: flex;
+    text-align: center !important;
+}
+
+.mensagemOcultada {
+    transition: 200ms;
+    opacity: 0;
+}
+
+.mensagemExibida {
+    transition: 500ms;
+    opacity: 1;
+    color: lawngreen;
+}
+
 #divRedesSociais {
     width: 100%;
     text-align: center;
+}
+
+#listaRedes {
+    display: flex;
+    list-style: none;
+    margin-top: 60px;
+    padding: 0px 150px;
+    justify-content: space-around;
+}
+
+.imgRedeSocial {
+    width: 150px;
+    height: 150px;
+}
+
+.redeSocial {
+    transition: 500ms;
+    opacity: 1;
+}
+
+.redeSocial:hover {
+    transition: 500ms;
+    opacity: 0.5;
+}
+
+.redeSocial a {
+    text-decoration: none;
 }

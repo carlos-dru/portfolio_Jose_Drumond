@@ -42,12 +42,40 @@
             <h2>Digite seu e-mail no campo abaixo, e eu entrarei em contato:</h2>
         </div>
         <form id="formContato">
-            <input type="text" placeholder="  Digite seu e-mail aqui" id="campoEmail">
+            <input type="text" placeholder="  Digite seu e-mail aqui" id="campoEmail" onclick="ocultarMensagem()">
             <input type="button" id="botaoSalvar" value="Salvar" onclick="enviarEmail()">
-            <h4 id="mensagemSucesso">E-mail enviado com sucesso!</h4>
         </form>
+        <div id="divMensagem">
+            <h4 id="mensagemSucesso" class="mensagemOcultada" style="margin-top: 0px;">E-mail enviado com sucesso!</h4>
+        </div>
+
+
         <div id="divRedesSociais">
             <h2>Ou se preferir, entre em contato através das minhas redes sociais:</h2>
+            <!-- Ícones obtidos em https://www.freepik.com/ -->
+            <ul id="listaRedes">
+                <li class="redeSocial">
+                    <a href="https://www.linkedin.com/in/jos%C3%A9-carlos-drumond-109086199/" target="_blank"><img
+                            src="../imagens/linkedin.png" alt="ícone do LinkedIn" class="imgRedeSocial">
+                        <h3>LinkedIn</h3>
+                    </a>
+
+                </li>
+                <li class="redeSocial">
+                    <a href="https://www.instagram.com/carlos_pientznauer/" target="_blank"><img
+                            src="../imagens/instagram.png" alt="ícone do Instagram" class="imgRedeSocial">
+                        <h3>Instagram</h3>
+                    </a>
+
+                </li>
+                <li class="redeSocial">
+                    <a href="https://twitter.com/Drumond_crvg" target="_blank"><img
+                            src="../imagens/sinal-do-twitter.png" alt="ícone do Twitter" class="imgRedeSocial">
+                        <h3>Twitter</h3>
+                    </a>
+
+                </li>
+            </ul>
         </div>
     </div>
     <footer>
