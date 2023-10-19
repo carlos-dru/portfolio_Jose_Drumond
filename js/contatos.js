@@ -1,4 +1,5 @@
 // JOSÉ DRUMOND - RU 3820241
+//Exibindo alerta de sucesso e limpando o campo de e-mail
 function enviarEmail() {
     var mensagemSucesso = document.getElementById("mensagemSucesso");
     mensagemSucesso.classList.add("mensagemExibida");
