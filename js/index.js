@@ -1,3 +1,4 @@
+// JOSÉ DRUMOND - RU 3820241
 // Criando método para fazer a animação de "fade down" nos itens de atividade
 document.addEventListener("DOMContentLoaded", function () {
     const atividades = document.querySelectorAll(".atividade");
